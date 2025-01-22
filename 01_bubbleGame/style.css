@@ -1,7 +1,7 @@
 *{
     padding : 0 ;
     margin : 0 ;
-    font-family: "Gilroy;
+    font-family: "Gilroy";
 }
 
 html,body {
@@ -27,22 +27,32 @@ html,body {
 }
 
 #ptop {
-    padding : 0px 20px ;
     display : flex ;
     align-items: center; 
     justify-content: space-between;
     width : 100% ;
-    height : 60px;
+    height : 80px;
     background-color: #075d07ae;
 }
 .elem {
+    padding : 0px 60px ;
     display: flex;
-    color : #fff ;
+    align-items: center; 
+    gap : 20px ;
+    color : aliceblue;
+
 }
 .box {
-    padding : 10px ;
-    background-color: #fff; 
+    padding :  10px 20px;
+    color : #0c690b ;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f0f8ff; 
     border-radius : 5px ;
+}
+
+#pbtm {
+    
 }
 
 
