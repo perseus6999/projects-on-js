@@ -1,0 +1,49 @@
+*{
+    padding : 0 ;
+    margin : 0 ;
+    font-family: "Gilroy;
+}
+
+html,body {
+    width : 100% ;
+    height: 100% ;
+}
+
+#main {
+    display : flex ;
+    justify-content: center;
+    align-items: center ;
+    background-color: rgb(172, 207, 172);
+    width : 100% ;
+    height : 100% ;
+}
+
+#panel {
+    overflow : hidden ;
+    border-radius : 10px ;
+    background-color: #fff;
+    width : 80% ;
+    height : 80% ;
+}
+
+#ptop {
+    padding : 0px 20px ;
+    display : flex ;
+    align-items: center; 
+    justify-content: space-between;
+    width : 100% ;
+    height : 60px;
+    background-color: #075d07ae;
+}
+.elem {
+    display: flex;
+    color : #fff ;
+}
+.box {
+    padding : 10px ;
+    background-color: #fff; 
+    border-radius : 5px ;
+}
+
+
+
