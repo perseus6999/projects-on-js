@@ -1,4 +1,4 @@
-let Timer = 10;
+let Timer = 60;
 let newRandomHitVal;
 let score = 0;
 
